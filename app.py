@@ -7,7 +7,7 @@ import numpy as np
 # ----------------------------------
 @st.cache_resource
 def load_model():
-    with open("model.pkl", "rb") as f:
+    with open("car prediction.pkl", "rb") as f:
         model = pickle.load(f)
     return model
 
